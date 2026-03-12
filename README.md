@@ -175,6 +175,9 @@
 ---
 
 <p align="center">
+  <a href="https://porfolio-inky-two.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-1F222E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
   <a href="https://linkedin.com/in/min-khoaa">
     <img src="https://img.shields.io/badge/LinkedIn-1F222E?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
