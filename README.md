@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+scalable+distributed+systems&font=Fira+Code&center=true&width=500&height=45&color=c9d1d9&vCenter=true&pause=1000&size=22" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+scalable+distributed+systems;Microservices+%C2%B7+Event-Driven+%C2%B7+Cloud-Native;C%23+%C2%B7+.NET+%C2%B7+Docker+%C2%B7+Azure&font=Fira+Code&center=true&width=500&height=45&color=c9d1d9&vCenter=true&pause=1000&size=22" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -28,13 +28,23 @@
   <img src="https://img.shields.io/badge/Docker-1F222E?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
-<h3 align="center">Environment</h3>
+<h3 align="center">DevOps & Cloud</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux-1F222E?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux" />
-  <img src="https://img.shields.io/badge/Niri-1F222E?style=for-the-badge" alt="Niri" />
-  <img src="https://img.shields.io/badge/Fish-1F222E?style=for-the-badge" alt="Fish" />
-  <img src="https://img.shields.io/badge/Kitty-1F222E?style=for-the-badge" alt="Kitty" />
+  <img src="https://img.shields.io/badge/Nginx-1F222E?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-1F222E?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Azure-1F222E?style=for-the-badge" alt="Azure" />
+  <img src="https://img.shields.io/badge/Google_Cloud-1F222E?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/DigitalOcean-1F222E?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean" />
+</p>
+
+---
+
+<h3 align="center">Currently Exploring</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RAG-21262d?style=flat" alt="RAG" />
+  <img src="https://img.shields.io/badge/LangChain-21262d?style=flat&logo=langchain&logoColor=8b949e" alt="LangChain" />
 </p>
 
 ---
@@ -43,24 +53,51 @@
 
 <table>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/minkhoaa/Project_Langfens_Microservice">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=Project_Langfens_Microservice&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Langfens" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/minkhoaa/peerzee-fullstack">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=peerzee-fullstack&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Peerzee" />
-      </a>
+    <td>
+      <h4><a href="https://github.com/minkhoaa/Project_Langfens_Microservice">Langfens — AI-powered IELTS Platform</a></h4>
+      <p>13 microservices, event-driven architecture, AI-powered grading and speech analysis</p>
+      <p>
+        <img src="https://img.shields.io/badge/.NET-21262d?style=flat&logo=dotnet&logoColor=8b949e" alt=".NET" />
+        <img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat&logo=postgresql&logoColor=8b949e" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/RabbitMQ-21262d?style=flat&logo=rabbitmq&logoColor=8b949e" alt="RabbitMQ" />
+        <img src="https://img.shields.io/badge/Redis-21262d?style=flat&logo=redis&logoColor=8b949e" alt="Redis" />
+        <img src="https://img.shields.io/badge/Elasticsearch-21262d?style=flat&logo=elasticsearch&logoColor=8b949e" alt="Elasticsearch" />
+        <img src="https://img.shields.io/badge/GPT--4o-21262d?style=flat" alt="GPT-4o" />
+        <img src="https://img.shields.io/badge/Whisper-21262d?style=flat" alt="Whisper" />
+      </p>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/minkhoaa/Foodify-Social-Media-Backend">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=Foodify-Social-Media-Backend&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Foodify" />
-      </a>
+    <td>
+      <h4><a href="https://github.com/minkhoaa/peerzee-fullstack">Peerzee — Full-stack Web Application</a></h4>
+      <p>Microservices architecture with speech processing, containerized deployment</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-21262d?style=flat&logo=nextdotjs&logoColor=8b949e" alt="Next.js" />
+        <img src="https://img.shields.io/badge/NestJS-21262d?style=flat&logo=nestjs&logoColor=8b949e" alt="NestJS" />
+        <img src="https://img.shields.io/badge/Docker-21262d?style=flat&logo=docker&logoColor=8b949e" alt="Docker" />
+        <img src="https://img.shields.io/badge/Whisper-21262d?style=flat" alt="Whisper" />
+        <img src="https://img.shields.io/badge/Playwright-21262d?style=flat" alt="Playwright" />
+      </p>
     </td>
-    <td width="50%"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <h4><a href="https://github.com/minkhoaa/Foodify-Social-Media-Backend">Foodify — Social Media Backend</a></h4>
+      <p>Food-sharing social platform with auth, feed, social features, image CDN</p>
+      <p>
+        <img src="https://img.shields.io/badge/.NET-21262d?style=flat&logo=dotnet&logoColor=8b949e" alt=".NET" />
+        <img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat&logo=postgresql&logoColor=8b949e" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Redis-21262d?style=flat&logo=redis&logoColor=8b949e" alt="Redis" />
+        <img src="https://img.shields.io/badge/Cloudinary-21262d?style=flat&logo=cloudinary&logoColor=8b949e" alt="Cloudinary" />
+        <img src="https://img.shields.io/badge/JWT-21262d?style=flat&logo=jsonwebtokens&logoColor=8b949e" alt="JWT" />
+      </p>
+    </td>
   </tr>
 </table>
 
