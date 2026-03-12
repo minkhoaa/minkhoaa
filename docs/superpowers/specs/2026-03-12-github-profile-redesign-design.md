@@ -14,19 +14,22 @@ Redesign the `minkhoaa/minkhoaa` profile README to be visually impressive, profe
 
 - **Typing SVG** from `readme-typing-svg.demolab.com`
   - Text: `Building scalable distributed systems`
-  - Font: Fira Code
+  - Font: Fira Code (fallback: JetBrains Mono, Source Code Pro)
   - Colors: monochrome (white/gray on transparent)
   - Centered, with cursor animation
 - **Identity line** below the typing SVG:
   - Format: `khoa@archlinux · .NET Backend Developer · Ho Chi Minh City`
-  - Plain text, centered, subtle gray
+  - Rendered as plain centered text in gray (`#8b949e`). The terminal green/blue coloring from the color palette is NOT used here because GitHub Markdown does not support inline `style` color attributes. The identity line is uniformly gray.
+- **Section dividers**: use standard Markdown horizontal rules (`---`) between all major sections.
 
 ### 2. Tech Stack
 
-shields.io badges using `style=for-the-badge` with dark monochrome colors (`color=1F222E`, `logoColor=white`). Grouped into 3 categories, each with a subtle uppercase label:
+shields.io badges using `style=for-the-badge` with dark monochrome colors (`color=1F222E`, `logoColor=white`). Grouped into 3 categories, each with a centered bold label.
+
+Note on URL format: color values in URL parameters omit the `#` prefix (e.g., `color=1F222E`, not `color=#1F222E`).
 
 **Languages & Frameworks:**
-- C# (logo: csharp)
+- C# (logo: csharp — verify slug works, fallback: use `logo=dotnet` with label `C%23`)
 - .NET (logo: dotnet)
 - TypeScript (logo: typescript)
 - NestJS (logo: nestjs)
@@ -41,15 +44,15 @@ shields.io badges using `style=for-the-badge` with dark monochrome colors (`colo
 
 **Environment:**
 - Arch Linux (logo: archlinux)
-- Niri (no standard logo, text-only badge)
-- Fish (no standard logo, text-only badge)
-- Kitty (no standard logo, text-only badge)
+- Niri (text-only badge: `https://img.shields.io/badge/Niri-1F222E?style=for-the-badge`)
+- Fish (text-only badge: `https://img.shields.io/badge/Fish-1F222E?style=for-the-badge`)
+- Kitty (text-only badge: `https://img.shields.io/badge/Kitty-1F222E?style=for-the-badge`)
 
 ### 3. Featured Projects
 
 Use `github-readme-stats` pin cards (`/api/pin/?username=minkhoaa&repo=REPO`). Dark theme matching the overall palette (`theme=dark`, `bg_color=0d1117`, `hide_border=true`, `title_color=58a6ff`, `icon_color=8b949e`, `text_color=8b949e`).
 
-**Featured (2-column layout using HTML table):**
+**Featured (2-column layout using HTML table, 3 projects = 2 rows, last row has 1 card left-aligned):**
 
 | Project | Description |
 |---------|-------------|
@@ -67,14 +70,14 @@ Use `github-readme-stats` pin cards (`/api/pin/?username=minkhoaa&repo=REPO`). D
 
 ### 4. GitHub Stats
 
-Three widgets, all with matching dark theme (`bg_color=0d1117`, `hide_border=true`, `title_color=58a6ff`, `text_color=8b949e`, `icon_color=8b949e`):
+Three widgets, all with matching dark theme:
 
-- **Stats card** + **Streak card** side-by-side (HTML table, 2 columns)
-  - Stats: `github-readme-stats.vercel.app/api?username=minkhoaa`
-  - Streak: `github-readme-streak-stats.herokuapp.com/?user=minkhoaa`
+- **Stats card** + **Streak card** side-by-side (HTML table, 2 columns, each `<td>` with `width="50%"`)
+  - Stats: `github-readme-stats.vercel.app/api?username=minkhoaa&show_icons=true&bg_color=0d1117&hide_border=true&title_color=58a6ff&text_color=8b949e&icon_color=8b949e`
+  - Streak: `streak-stats.demolab.com/?user=minkhoaa&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=8b949e&dates=484f58&currStreakLabel=8b949e&sideLabels=8b949e`
 - **Activity Graph** full-width below
-  - `github-readme-activity-graph.vercel.app/graph/?username=minkhoaa`
-  - Colors: `bg_color=0d1117`, `color=8b949e`, `line=58a6ff`, `point=ffffff`
+  - `github-readme-activity-graph.vercel.app/graph/?username=minkhoaa&bg_color=0d1117&color=8b949e&line=58a6ff&point=ffffff&hide_border=true`
+  - Note: this Vercel deployment may become unreliable. If it breaks, consider self-hosting or removing this widget.
 
 ### 5. Contact
 
@@ -82,21 +85,28 @@ shields.io badges (`style=for-the-badge`, dark monochrome) centered:
 
 - LinkedIn: links to `https://linkedin.com/in/min-khoaa`
 - Facebook: links to `https://facebook.com/min.khoaaa`
-- Email: placeholder `mailto:your@email.com`
+- Email: TBD — ask owner for real email before implementation. Use placeholder `mailto:your@email.com` if not provided.
 
 ## Color Palette
+
+All color values omit the `#` prefix when used in URL parameters.
 
 | Element | Color | Usage |
 |---------|-------|-------|
 | Background | `#0d1117` | All widget bg_color |
 | Title/accent | `#58a6ff` | Repo names, headings in stats |
 | Primary text | `#c9d1d9` | Badge text, main content |
-| Secondary text | `#8b949e` | Descriptions, subtitles |
-| Muted | `#484f58` | Section labels, dividers |
+| Secondary text | `#8b949e` | Descriptions, subtitles, identity line |
+| Muted | `#484f58` | Section labels, date text in streak |
 | Surface | `#1F222E` | Badge backgrounds |
 | Border | `#21262d` | Card borders (in widgets) |
-| Terminal green | `#7ee787` | Username in identity line |
-| Terminal blue | `#79c0ff` | Hostname in identity line |
+
+## GitHub Markdown Rendering Notes
+
+- Inline `style` attributes with `color` do NOT work on GitHub — text colors cannot be customized in Markdown.
+- Custom `<hr>` styling does not work — use standard `---` for dividers.
+- HTML tables work for layout (2-column, 3-column) but are not responsive on mobile — narrow viewports will still scroll horizontally, which is acceptable.
+- `<p align="center">` works for centering content.
 
 ## Constraints
 
@@ -114,3 +124,4 @@ shields.io badges (`style=for-the-badge`, dark monochrome) centered:
 - Snake contribution animation (requires GitHub Action setup)
 - Custom banner image (would need design tools)
 - Profile view counter
+- Top Languages card (deliberately removed — tech stack is shown via badges instead)
