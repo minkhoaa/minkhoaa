@@ -70,7 +70,12 @@
   <tr>
     <td width="33%">
       <a href="https://github.com/minkhoaa/Clinic_Management_API">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=Clinic_Management_API&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Clinic Management" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=Clinic_Management_API&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Clinic Management API" />
+      </a>
+    </td>
+    <td width="33%">
+      <a href="https://github.com/minkhoaa/ClinicApp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=ClinicApp&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="ClinicApp" />
       </a>
     </td>
     <td width="33%">
@@ -78,11 +83,36 @@
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=EnglishApp-Backend&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="EnglishApp" />
       </a>
     </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <a href="https://github.com/minkhoaa/HR-Management">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=HR-Management&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="HR Management" />
+      </a>
+    </td>
+    <td width="33%">
+      <a href="https://github.com/minkhoaa/LibraryManagement">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=LibraryManagement&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Library Management" />
+      </a>
+    </td>
+    <td width="33%">
+      <a href="https://github.com/minkhoaa/QLPhongMachTu-WPF">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=QLPhongMachTu-WPF&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="QLPhongMachTu WPF" />
+      </a>
+    </td>
+  </tr>
+  <tr>
     <td width="33%">
       <a href="https://github.com/minkhoaa/porfolio">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=porfolio&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Portfolio" />
       </a>
     </td>
+    <td width="33%">
+      <a href="https://github.com/minkhoaa/niri-configs">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=niri-configs&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Niri Configs" />
+      </a>
+    </td>
+    <td width="33%"></td>
   </tr>
 </table>
 
@@ -114,7 +144,7 @@
   <a href="https://facebook.com/min.khoaaa">
     <img src="https://img.shields.io/badge/Facebook-1F222E?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
-  <a href="mailto:your@email.com">
+  <a href="mailto:tukhoa040505@gmail.com">
     <img src="https://img.shields.io/badge/Email-1F222E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
