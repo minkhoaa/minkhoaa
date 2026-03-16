@@ -4,6 +4,12 @@
   <img src="https://komarev.com/ghpvc/?username=minkhoaa&style=flat-square&color=1F222E&label=profile+views" alt="Profile Views" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_PARTY-302b63?style=flat-square&logoColor=white" alt="Status" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Currently_@-TISOHA_%C2%B7_Morca_Labs-21262d?style=flat-square" alt="Currently at" />
+</p>
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minkhoaa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
   &nbsp;&nbsp;&nbsp;
