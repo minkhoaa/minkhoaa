@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=minkhoaa&style=flat-square&color=1F222E&label=profile+views" alt="Profile Views" />
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com/?lines=Building+scalable+distributed+systems;Microservices+%C2%B7+Event-Driven+%C2%B7+Cloud-Native;C%23+%C2%B7+.NET+%C2%B7+Docker+%C2%B7+Azure&font=Fira+Code&center=true&width=500&height=45&color=c9d1d9&vCenter=true&pause=1000&size=22" alt="Typing SVG" />
 </p>
 
@@ -171,6 +175,12 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph/?username=minkhoaa&bg_color=0d1117&color=8b949e&line=58a6ff&point=ffffff&hide_border=true" alt="Activity Graph" />
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/minkhoaa/minkhoaa/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/minkhoaa/minkhoaa/output/github-snake.svg" />
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/minkhoaa/minkhoaa/output/github-snake-dark.svg" />
+</picture>
 
 ---
 
