@@ -176,11 +176,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph/?username=minkhoaa&bg_color=0d1117&color=8b949e&line=58a6ff&point=ffffff&hide_border=true" alt="Activity Graph" />
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/minkhoaa/minkhoaa/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/minkhoaa/minkhoaa/output/github-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/minkhoaa/minkhoaa/output/github-snake-dark.svg" />
-</picture>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=minkhoaa&theme=darkhub&no-frame=true&column=6&margin-w=10" alt="GitHub Trophies" />
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,1a1a2e,16213e&height=100&section=footer" width="100%" />
 
