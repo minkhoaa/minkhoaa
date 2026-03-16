@@ -1,45 +1,45 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,1a1a2e,16213e&height=200&section=header&text=Tu%20Minh%20Khoa&fontSize=50&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38&desc=.NET%20Backend%20Developer%20%7C%20Ho%20Chi%20Minh%20City&descAlignY=55&descAlign=50" width="100%" />
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=minkhoaa&style=flat-square&color=1F222E&label=profile+views" alt="Profile Views" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+scalable+distributed+systems;Microservices+%C2%B7+Event-Driven+%C2%B7+Cloud-Native;C%23+%C2%B7+.NET+%C2%B7+Docker+%C2%B7+Azure&font=Fira+Code&center=true&width=500&height=45&color=c9d1d9&vCenter=true&pause=1000&size=22" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <code>khoa@archlinux</code> · .NET Backend Developer · Ho Chi Minh City
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minkhoaa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" height="150" alt="Coding" />
+</div>
 
 ---
 
 <h3 align="center">Languages & Frameworks</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%23-1F222E?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET-1F222E?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-  <img src="https://img.shields.io/badge/TypeScript-1F222E?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/NestJS-1F222E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/Java-1F222E?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height="40" alt="C#" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" height="40" alt=".NET" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" height="40" alt="NestJS" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java" />
 </p>
 
 <h3 align="center">Infrastructure</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-1F222E?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-1F222E?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/RabbitMQ-1F222E?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-  <img src="https://img.shields.io/badge/Elasticsearch-1F222E?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
-  <img src="https://img.shields.io/badge/Docker-1F222E?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" height="40" alt="Redis" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" height="40" alt="RabbitMQ" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg" height="40" alt="Elasticsearch" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="40" alt="Docker" />
 </p>
 
 <h3 align="center">DevOps & Cloud</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Nginx-1F222E?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-1F222E?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Azure-1F222E?style=for-the-badge" alt="Azure" />
-  <img src="https://img.shields.io/badge/Google_Cloud-1F222E?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/DigitalOcean-1F222E?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" height="40" alt="GitHub Actions" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" height="40" alt="Azure" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" height="40" alt="Google Cloud" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original.svg" height="40" alt="DigitalOcean" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" height="40" alt="Linux" />
 </p>
 
 ---
@@ -182,19 +182,19 @@
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/minkhoaa/minkhoaa/output/github-snake-dark.svg" />
 </picture>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,1a1a2e,16213e&height=100&section=footer" width="100%" />
 
 <p align="center">
   <a href="https://porfolio-inky-two.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-1F222E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://linkedin.com/in/min-khoaa">
-    <img src="https://img.shields.io/badge/LinkedIn-1F222E?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://facebook.com/min.khoaaa">
-    <img src="https://img.shields.io/badge/Facebook-1F222E?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
   <a href="mailto:tukhoa040505@gmail.com">
-    <img src="https://img.shields.io/badge/Email-1F222E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
