@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,1a1a2e,16213e&height=200&section=header&text=Tu%20Minh%20Khoa&fontSize=50&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38&desc=Fullstack%20Developer%20%7C%20Ho%20Chi%20Minh%20City&descAlignY=55&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,24243e,302b63&height=200&section=header&text=Tu%20Minh%20Khoa&fontSize=50&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38&desc=Fullstack%20Developer%20%7C%20Ho%20Chi%20Minh%20City&descAlignY=55&descAlign=50" width="100%" />
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=minkhoaa&style=flat-square&color=1F222E&label=profile+views" alt="Profile Views" />
@@ -7,7 +7,7 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minkhoaa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" height="150" alt="Coding" />
+  <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" height="150" alt="Coding" />
 </div>
 
 ---
@@ -177,7 +177,7 @@
 </p>
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,1a1a2e,16213e&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=302b63,24243e,0d1117&height=100&section=footer" width="100%" />
 
 <p align="center">
   <a href="https://porfolio-inky-two.vercel.app/">
