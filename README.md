@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPEN_FOR_OPPORTUNITIES-302b63?style=flat-square&logoColor=white" alt="Status" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Role-AI_Engineer_·_Backend_Developer-21262d?style=flat-square" alt="Role" />
+  <img src="https://img.shields.io/badge/Role-AI_Engineer_%7C_Backend_Developer-21262d?style=flat-square" alt="Role" />
   &nbsp;
   <img src="https://img.shields.io/badge/Currently_@-TISOHA-21262d?style=flat-square" alt="Currently at" />
 </p>
@@ -18,7 +18,7 @@
 </p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minkhoaa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=minkhoaa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
   &nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-996024c84606.gif" height="150" alt="Coding" />
 </div>
@@ -31,7 +31,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />&nbsp;
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />&nbsp;
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />&nbsp;
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />&nbsp;
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logoColor=white" alt="LangGraph" />&nbsp;
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />&nbsp;
   <img src="https://img.shields.io/badge/Qdrant-DC2626?style=for-the-badge&logo=qdrant&logoColor=white" alt="Qdrant" />&nbsp;
   <img src="https://img.shields.io/badge/Google_OR--Tools-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="OR-Tools" />
@@ -56,7 +56,7 @@
   <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" alt="k6" />&nbsp;
   <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" />&nbsp;
   <img src="https://img.shields.io/badge/LLM--as--a--Judge-21262d?style=flat-square" alt="LLM-as-a-Judge" />&nbsp;
-  <img src="https://img.shields.io/badge/pgvector_(HNSW)-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector HNSW" />&nbsp;
+  <img src="https://img.shields.io/badge/pgvector-HNSW-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector HNSW" />&nbsp;
   <img src="https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />&nbsp;
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
@@ -106,7 +106,7 @@
       <p>
         <img src="https://img.shields.io/badge/NestJS-21262d?style=flat&logo=nestjs&logoColor=8b949e" alt="NestJS" />
         <img src="https://img.shields.io/badge/TypeScript-21262d?style=flat&logo=typescript&logoColor=8b949e" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/LangGraph-21262d?style=flat&logo=langchain&logoColor=8b949e" alt="LangGraph" />
+        <img src="https://img.shields.io/badge/LangGraph-21262d?style=flat&logoColor=8b949e" alt="LangGraph" />
         <img src="https://img.shields.io/badge/pgvector_(HNSW)-21262d?style=flat&logo=postgresql&logoColor=8b949e" alt="pgvector" />
         <img src="https://img.shields.io/badge/Google_Gemini-21262d?style=flat&logo=google&logoColor=8b949e" alt="Gemini" />
         <img src="https://img.shields.io/badge/Whisper.cpp-21262d?style=flat" alt="Whisper.cpp" />
@@ -127,7 +127,7 @@
       <ul>
         <li><strong>Pre-Training Pipeline:</strong> Structured ~2GB raw enterprise logistics data into validated schemas for LLM fine-tuning.</li>
         <li><strong>Output Validation Harness:</strong> Enforced JSON-schema compliance on LLM-extracted constraints before entering CP-SAT solver.</li>
-        <li><strong>Google OR-Tools (CP-SAT):</strong> Formulated constraints for conflict-free crew and fleet allocation via FastAPI REST APIs (~200ms avg response).</li>
+        <li><strong>Google OR-Tools (CP-SAT):</strong> Formulated constraints for conflict-free crew and fleet allocation via FastAPI REST APIs.</li>
         <li><strong>Inference Caching:</strong> Layered Redis caching on high-frequency read paths to avoid redundant re-inference on repeated dispatch notes.</li>
       </ul>
       <p>
@@ -147,52 +147,52 @@
 <table>
   <tr>
     <td width="33%">
+      <a href="https://github.com/minkhoaa/langfens-ielts-dataset">
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=langfens-ielts-dataset&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="IELTS AI Dataset" />
+      </a>
+    </td>
+    <td width="33%">
       <a href="https://github.com/minkhoaa/Clinic_Management_API">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=Clinic_Management_API&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Clinic Management API" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=Clinic_Management_API&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Clinic Management API" />
       </a>
     </td>
     <td width="33%">
       <a href="https://github.com/minkhoaa/ClinicApp">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=ClinicApp&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="ClinicApp" />
-      </a>
-    </td>
-    <td width="33%">
-      <a href="https://github.com/minkhoaa/EnglishApp-Backend">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=EnglishApp-Backend&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="EnglishApp" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=ClinicApp&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="ClinicApp" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="33%">
       <a href="https://github.com/minkhoaa/Foodify-Social-Media-Backend">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=Foodify-Social-Media-Backend&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Foodify Backend" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=Foodify-Social-Media-Backend&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Foodify Backend" />
+      </a>
+    </td>
+    <td width="33%">
+      <a href="https://github.com/minkhoaa/EnglishApp-Backend">
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=EnglishApp-Backend&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="EnglishApp" />
       </a>
     </td>
     <td width="33%">
       <a href="https://github.com/minkhoaa/HR-Management">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=HR-Management&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="HR Management" />
-      </a>
-    </td>
-    <td width="33%">
-      <a href="https://github.com/minkhoaa/LibraryManagement">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=LibraryManagement&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Library Management" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=HR-Management&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="HR Management" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="33%">
-      <a href="https://github.com/minkhoaa/porfolio">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=porfolio&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Portfolio" />
-      </a>
-    </td>
-    <td width="33%">
-      <a href="https://github.com/minkhoaa/niri-configs">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=niri-configs&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Niri Configs" />
+      <a href="https://github.com/minkhoaa/LibraryManagement">
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=LibraryManagement&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Library Management" />
       </a>
     </td>
     <td width="33%">
       <a href="https://github.com/minkhoaa/QLPhongMachTu-WPF">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=minkhoaa&repo=QLPhongMachTu-WPF&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="QLPhongMachTu WPF" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=QLPhongMachTu-WPF&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="QLPhongMachTu WPF" />
+      </a>
+    </td>
+    <td width="33%">
+      <a href="https://github.com/minkhoaa/porfolio">
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=minkhoaa&repo=porfolio&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=8b949e&text_color=8b949e" alt="Portfolio" />
       </a>
     </td>
   </tr>
@@ -200,12 +200,12 @@
 
 ---
 
-### GitHub Stats
+### GitHub Stats & Activity
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=minkhoaa&show_icons=true&bg_color=0d1117&hide_border=true&title_color=58a6ff&text_color=8b949e&icon_color=8b949e" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=minkhoaa&show_icons=true&bg_color=0d1117&hide_border=true&title_color=58a6ff&text_color=8b949e&icon_color=8b949e" alt="GitHub Stats" />
     </td>
     <td width="50%">
       <img src="https://streak-stats.demolab.com/?user=minkhoaa&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=8b949e&dates=484f58&currStreakLabel=8b949e&sideLabels=8b949e" alt="GitHub Streak" />
@@ -214,7 +214,7 @@
 </table>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph/?username=minkhoaa&bg_color=0d1117&color=8b949e&line=58a6ff&point=ffffff&hide_border=true" alt="Activity Graph" />
+  <img src="https://ghchart.rshah.org/58a6ff/minkhoaa" alt="Tu Minh Khoa's Contribution Chart" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=302b63,24243e,0d1117&height=100&section=footer" width="100%" />
