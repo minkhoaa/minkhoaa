@@ -197,9 +197,6 @@
     </td>
   </tr>
 </table>
-
----
-
 ### GitHub Stats & Activity
 
 <table>
@@ -231,5 +228,8 @@
   </a>
   <a href="mailto:tukhoa040505@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="tel:0378643548">
+    <img src="https://img.shields.io/badge/Phone-(+84)_378_643_548-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" />
   </a>
 </p>
