@@ -71,10 +71,11 @@
       <h4><a href="https://github.com/minkhoaa/Project_Langfens_Microservice">Langfens — AI-Powered IELTS Platform</a> <code>Team of 2</code></h4>
       <p>Microservice-based AI preparation platform with dynamic criterion-scoped RAG grading and local acoustic inference.</p>
       <ul>
+        <li><strong>Microservices Architecture:</strong> 11 services (10 ASP.NET Core + 1 FastAPI) behind a YARP API gateway, decoupling long-running AI inference (10--40s) via RabbitMQ + MassTransit.</li>
         <li><strong>RAG Evaluation Pipeline:</strong> Pilot (n=5) using counterbalanced independent LLM judge, reducing grading MAE from 1.20 to 0.90 against human examiners.</li>
         <li><strong>Failure Modes & Model Migration:</strong> Stabilized JSON output latency from 250s to 33.4s by migrating reasoning tasks to Qwen3.8-27b.</li>
-        <li><strong>CPU Speech Inference:</strong> Deployed Qwen2.5-1.5B LoRA adapters (r=16, α=32) + PyTorch Wav2Vec2. Benchmarked faster-whisper on real 96s speech: 2.76s warm (0.03× RTF, 34× real-time) vs 51s cold start.</li>
-        <li><strong>High-Throughput DB:</strong> PostgreSQL <code>pg_trgm</code> GIN index sustaining 3,027 req/s at 5.63ms p95 latency under 100 concurrent VUs.</li>
+        <li><strong>CPU Speech Inference:</strong> Deployed Qwen2.5-1.5B LoRA adapters (r=16, alpha=32) + PyTorch Wav2Vec2. Benchmarked faster-whisper on real 96s speech: 2.76s warm (0.03x RTF, 34x faster than real-time) vs 51s cold start.</li>
+        <li><strong>k6 Load-Tested:</strong> PostgreSQL <code>pg_trgm</code> GIN index sustaining 3,027 req/s at p95 = 5.63ms with 0% errors across 91,008 requests.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-21262d?style=flat&logo=python&logoColor=8b949e" alt="Python" />
@@ -98,10 +99,12 @@
       <h4><a href="https://github.com/minkhoaa/peerzee-fullstack">Peerzee — AI Social Discovery & Matchmaking Engine</a> <code>Solo Project</code></h4>
       <p>Fullstack AI social discovery platform with agentic matchmaking, sub-millisecond vector retrieval, and chaos-tested resilience.</p>
       <ul>
-        <li><strong>PostgreSQL pgvector HNSW:</strong> Replaced sequential scans with HNSW indexing, cutting KNN latency from 1.78ms to 0.667ms (2.7× speedup) and buffer I/O by 70%.</li>
-        <li><strong>Unit Economics & LangGraph:</strong> 3-node LangGraph pipeline (parse intent → vector retrieval → LLM curation) achieving $0.12 / 1,000 matches.</li>
-        <li><strong>High-Concurrency Queue:</strong> In-memory mutex-guarded queue (240 QPS Cosine ranking over 500 queued users) eliminating race conditions.</li>
-        <li><strong>Chaos Engineering:</strong> 37 Jest chaos/integration tests (100% pass) verifying graceful fallback when Gemini API returns 503 overload.</li>
+        <li><strong>PostgreSQL pgvector HNSW:</strong> Replaced sequential scans with HNSW indexing, cutting KNN latency from 1.78ms to 0.667ms (2.7x speedup) and buffer I/O by 70%.</li>
+        <li><strong>Unit Economics & LangGraph:</strong> 3-node LangGraph pipeline (parse intent -> vector retrieval -> LLM curation) achieving $0.12 / 1,000 matches.</li>
+        <li><strong>ReAct Tool-Calling Agent (Wingman):</strong> In-memory dispatch scaling linearly with reasoning depth (1.39ms for 1 step -> 6.29ms for 5 steps), capping orchestration overhead under 7ms.</li>
+        <li><strong>In-Memory Mutex Queue:</strong> 4.17ms Cosine ranking over 500 candidates (~240 QPS) eliminating double-match race conditions across all transactions.</li>
+        <li><strong>Chaos Engineering:</strong> 37 Jest chaos/integration tests (100% pass) validating resilience: automated SQL fallback on embedding timeouts and 0.007ms circuit-breaker fail-open during Gemini 503 outages.</li>
+        <li><strong>Hardware-Aware STT:</strong> Whisper.cpp with automatic CUDA detection and CPU fallback integrated into WebRTC signaling gateway.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/NestJS-21262d?style=flat&logo=nestjs&logoColor=8b949e" alt="NestJS" />
@@ -125,9 +128,8 @@
       <h4>AI Scheduler — Logistics Dispatch Optimization <code>Enterprise Client Project @ TISOHA</code></h4>
       <p>Pre-training data normalization, strict LLM constraint validation, and Operations Research solver integration.</p>
       <ul>
-        <li><strong>Pre-Training Pipeline:</strong> Structured ~2GB raw enterprise logistics data into validated schemas for LLM fine-tuning.</li>
-        <li><strong>Output Validation Harness:</strong> Enforced JSON-schema compliance on LLM-extracted constraints before entering CP-SAT solver.</li>
-        <li><strong>Google OR-Tools (CP-SAT):</strong> Formulated constraints for conflict-free crew and fleet allocation via FastAPI REST APIs.</li>
+        <li><strong>Pre-Training Pipeline:</strong> Structured ~2GB of raw enterprise logistics data (crew qualifications, fleet specs, job constraints) into validated schemas for LLM fine-tuning.</li>
+        <li><strong>Output Validation Harness:</strong> Enforced JSON-schema compliance on LLM-extracted constraints, and helped formulate crew/fleet allocation constraints for the OR-Tools CP-SAT solver.</li>
         <li><strong>Inference Caching:</strong> Layered Redis caching on high-frequency read paths to avoid redundant re-inference on repeated dispatch notes.</li>
       </ul>
       <p>
